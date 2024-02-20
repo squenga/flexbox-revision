@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap')
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-color: #2e3b31;
+	color: white;
+}
+
+.header1 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-color: #333;
+	background-image: url('https://www.dewittguam.com/wp-content/uploads/sites/6/2020/02/guam-mt-lam-lam-cs-header.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.header2 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-color: #333;
+	background-image: url('https://pbs.twimg.com/media/FAiymHBX0AYtxgC.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.header3 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	height: 100vh;
+	background-color: #333;
+	background-image: url('https://assets.simpleviewinc.com/simpleview/image/upload/c_fill,q_75/v1/clients/guam/lattehands_814d60e4-4566-4188-9907-7731eb4d8828.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+h1 {
+	color: white;
+	font-size: 20vmin;
+	text-align: center;
+	font-family: "Righteous", sans-serif;
+  	font-weight: 600;
+  	font-style: normal;
+  	-webkit-text-stroke-width: 3px;
+  	-webkit-text-stroke-color: black;
+}
+
+.mainContainer {
+	margin: 0px;
+}
+
+.menuWrapper {
+	display: flex;
+	justify-content: center;
+	padding: 30px;
+	background-color: black;
+}
+
+.menu {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	width: 50vw;
+}
+
+a, a:visited {
+	display: flex;
+	color: #fff;
+	font-size: 40px;
+}
+
+.articleContainer {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	background-color: black;
+	padding-bottom: 80px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.article {
+	box-sizing: border-box;
+	background-color: black;
+	margin: 50px;
+	width: 230px;
+	height: 210px;
+}
+
+.article img {
+	width: 230px;
+	height: 210px;
+}
+
+.articleBox {
+	display: flex;
+	color: white;
+	background-color: black;
+	text-decoration: none;
+	font-size: 13pt;
+}
+
+.subTitle {
+	font-size: 10vmin;
+	margin-top: 130px;
+	margin-bottom: 10px;
+	font-style: italic;
+	text-align: center;
+	-webkit-text-stroke-width: 1px;
+  	-webkit-text-stroke-color: black;
+}
+
+.paragraphContainer {
+	display: flex;
+	justify-content: center;
+	background-color: black;
+	margin-left: 200px;
+	margin-right: 200px;
+	padding: 20px;
+	font-size: 20px;
+}
+
+p {
+	background-color: black;
+}
+
+.infoContainer {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 20px;
+}
+
+.infoBox {
+	display:flex;
+	justify-content: center;
+	flex: 1;
+	flex-direction: column;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 20px;
+}
+
+.infoBox p {
+	margin-bottom: 0px;
+	padding: 20px;
+	color: white;
+	font-size: 18pt;
+}
+
+.infoBox img {
+	width: auto;
+	height: 50vh;
+}
+
+.homeImageContainer {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.homeImage {
+	max-width: 500px;
+	height: auto;
+	padding-top: 35px;
+}
+
+.imageBox {
+	display: inline-block;
+	padding: 20px;
+	width: 10%;
+}
+
+.linkContainer {
+	display: flex;
+	justify-content: space-between;
+	margin: e0px;
+}
+
+.link {
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+}
+
+.linkBox {
+	margin-bottom: 50px;
+	background-color: black;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+.threeColumn {
+	display: flex;
+	gap: 10px;
+	margin-top: 150px;
+	margin-bottom: 80px;
+}
+
+.imageBlock {
+	width: 100%;
+	object-fit: cover;
+	aspect-ratio: 1/1;
+}
+
+.imageBlock img {
+	width: 100%;
+	object-fit: cover;
+	aspect-ratio: 1/1;
+}
